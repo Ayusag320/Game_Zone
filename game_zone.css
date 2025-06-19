@@ -1,1 +1,143 @@
 
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header1{
+    display: flex;
+    border: 5px solid rgb(61, 61, 61);
+    background-image: url(gameimages/imagefor.jpg);
+    background-size: cover;
+    position: static;
+    width: 1500px;
+    
+   
+
+}
+#button1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-left: 20px;
+}
+#button1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    width: 300px;
+    
+}
+.action_bar{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    width: 400px;
+    color: white;
+
+}
+body{
+    background-color: rgb(20, 0, 0);
+}
+#categeory_name1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#categeory_name1 a{
+    
+    background-color: black;
+    color: rgb(129, 129, 129);
+    margin-left: 2px;
+    height: 30px;
+    background-color: black;
+    width: 200px;
+
+}
+#mainpart1{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+#mainpart1 a{
+    margin-left: 2px;
+}
+#gamevideo{
+    display: flex;
+    
+}
+#soundbutton{
+    display: flex;
+}
+#action_game1{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+#name_of_1stcategeory{
+    background-color: rgb(38, 33, 24);
+    color: black;
+    height: 30px;
+}
+#racing_game1{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+#name_of_2ndstcategeory{
+    background-color: rgb(38, 33, 24);
+    color: black;
+    margin-top: 8px;
+    height: 30px;
+}
+#name_of_3rdcategeory{
+    background-color: rgb(38, 33, 24);
+    color: black;
+    margin-top: 8px;
+    height: 30px;
+}
+#adventure_game1{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+#sports_game1{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    
+
+}
+
+#name_of_4rthcategeory{
+    background-color: rgb(38, 33, 24);
+    color: black;
+    margin-top: 8px;
+    height: 30px;  
+}
+#name_of_5thcategeory{
+    background-color: rgb(38, 33, 24);
+    color: black;
+    margin-top: 8px;
+    height: 30px;
+}
+#scifi_game1{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
