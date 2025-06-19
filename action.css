@@ -1,0 +1,50 @@
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header1{
+    display: flex;
+    border: 5px solid rgb(61, 61, 61);
+    background-image: url(gameimages/imagefor.jpg);
+    background-size: cover;
+    position: static;
+    width: 1500px;
+    
+   
+
+}
+#button1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-left: 20px;
+}
+#button1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    width: 300px;
+    
+}
+.action_bar{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    width: 400px;
+    color: white;
+
+}
+#name_of_1stcategeory{
+    background-color: rgb(38, 33, 24);
+    color: black;
+    height: 30px;
+}
+#action_game1{
+    background-color: rgb(27, 17, 0);
+}
